@@ -1,40 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📝 Minute Meet
 
-## Getting Started
+**Minute Meet** is a smart meeting summarizer web app. Upload your meeting transcript (`.txt` file), and it instantly summarizes the key points and action items using AI (powered by Mistral via OpenRouter). Ideal for professionals, teams, and students who want concise summaries of long meetings.
 
-First, run the development server:
+ ## 📸 Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 [Live Site on Netlify](https://minute-meet.netlify.app/)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- 📄 Upload `.txt` transcript files
+- ✂️ Auto-generates clean summaries of meetings
+- 🤖 Uses Mistral AI (`mistral-7b-instruct`) via OpenRouter API
+- 🎤 Voice-to-text support via browser microphone
+- 🧠 Designed for productivity and clarity
+- 🌐 Fully responsive, deployed on Netlify
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** – React framework for building the frontend
+- **Firebase Auth** – Authentication
+- **OpenRouter + Mistral** – AI summarization backend
+- **React Speech Recognition** – Voice input
+- **Tailwind CSS** – Modern UI styling
+- **Cloudinary** – (Optional) image upload
+- **Netlify** – Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+=
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
