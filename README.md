@@ -4,7 +4,7 @@
 
  ## 📸 Demo
 
-🔗 (https://minute-meet.netlify.app/)  
+🔗 https://minute-meet.netlify.app/
 
 ---
 
